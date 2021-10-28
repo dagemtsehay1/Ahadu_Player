@@ -46,16 +46,6 @@ class MyApp extends StatelessWidget {
       styleTextUnderTheLoader: TextStyle(),
       photoSize: 100.0,
       loaderColor: Colors.white,
-      loadingText: Text(
-        "by\nDagem Tsehay",
-        textAlign: TextAlign.center,
-        style: TextStyle(
-          color: Colors.white,
-          fontSize: 20,
-          fontFamily: "Audiowide",
-          letterSpacing: 2,
-        ),
-      ),
     );
   }
 }
